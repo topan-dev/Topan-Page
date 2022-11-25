@@ -19,6 +19,9 @@ int main(){
         else getline(cin,op);
         string opidentifier=Terminal::cutoperator(op).first;
         string opdetail=Terminal::cutoperator(op).second;
+        if(opidentifier=="systeminit"){
+            continue;
+        }
         if(opidentifier=="quit"){
             quited=true;
             continue;
@@ -26,6 +29,7 @@ int main(){
         if(opidentifier=="init"){
             continue;
         }
+        printf("Can't find operation \"%s\".\n",opidentifier.c_str());
     }
     return 0;
 }
