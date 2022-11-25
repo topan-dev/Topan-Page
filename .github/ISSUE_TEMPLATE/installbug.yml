@@ -1,0 +1,23 @@
+name: 关于安装系统的 Bug
+description: 关于安装系统的 UI、操作、指令等的 Bug。
+labels: ["Installer","Bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        我们将尽力修复您提出的真实的 Bug。感谢您的反馈。
+  - type: textarea
+    id: bug
+    attributes:
+      label: 问题描述
+      description: 请简要描述 Bug，最好附上有关 Bug 的图片。
+    validations:
+      required: true
+  - type: textarea
+    id: advice
+    attributes:
+      label: 修改建议
+      description: 希望您能提供修改建议。
+    validations:
+      required: false

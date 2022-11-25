@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 项目 UI 相关问题
+    url: https://github.com/topan-dev/TopanUI/issues/new/choose
+    about: 请转至 topan-dev/TopanUI 仓库处理。
+  - name: 其他问题与意见
+    url: https://github.com/topan-dev/Topan-Page/issues/new
+    about: 您也可以直接发表 Issue。

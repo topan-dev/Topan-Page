@@ -1,0 +1,23 @@
+name: 关于页面显示的 Bug
+description: 关于生成的页面的内容的 Bug。
+labels: ["Page","Bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        我们将尽力修复您提出的真实的 Bug。感谢您的反馈。
+  - type: textarea
+    id: bug
+    attributes:
+      label: 问题描述
+      description: 请简要描述 Bug，最好附上有关 Bug 的图片。
+    validations:
+      required: true
+  - type: textarea
+    id: advice
+    attributes:
+      label: 修改建议
+      description: 希望您能提供修改建议。
+    validations:
+      required: false

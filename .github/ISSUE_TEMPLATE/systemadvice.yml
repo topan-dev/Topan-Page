@@ -1,0 +1,16 @@
+name: 关于页面显示的建议
+description: 关于生成的页面的内容的任何建议。
+labels: ["Page","Advice"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        我们将认真对待任何用户提出的有意义建议。感谢您的建议。
+  - type: textarea
+    id: advice
+    attributes:
+      label: 修改建议
+      description: 请描述修改的目标模式，最好附上修改方法。
+    validations:
+      required: true
